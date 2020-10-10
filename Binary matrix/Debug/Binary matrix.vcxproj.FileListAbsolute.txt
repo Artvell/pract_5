@@ -1,0 +1,2 @@
+D:\pract\pract_5\Binary matrix\Debug\Binary matrix.exe
+D:\pract\pract_5\Binary matrix\Debug\Binary matrix.pdb

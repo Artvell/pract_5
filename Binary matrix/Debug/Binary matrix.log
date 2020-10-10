@@ -1,0 +1,4 @@
+﻿  Generator.cpp
+D:\pract\pract_5\Binary matrix\Generator.h(18,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\pract\pract_5\Binary matrix\Generator.h(19,22): warning C4018: <: несоответствие типов со знаком и без знака
+  Binary matrix.vcxproj -> D:\pract\pract_5\Binary matrix\Debug\Binary matrix.exe
