@@ -1,8 +1,9 @@
-﻿  main.cpp
-D:\pract\pract_5\Binary matrix\main.cpp(7,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+﻿  Generator.cpp
+  main.cpp
+D:\pract\pract_5\Binary matrix\main.cpp(9,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
   Создание кода
-  1 of 145 functions ( 0.7%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+  7 of 292 functions ( 2.4%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    3 functions had inline decision re-evaluated but remain unchanged
   Создание кода завершено
   Binary matrix.vcxproj -> D:\pract\pract_5\Binary matrix\x64\Release\Binary matrix.exe

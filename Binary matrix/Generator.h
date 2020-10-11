@@ -7,17 +7,13 @@ using namespace std;
 class Generator {
 public:
 	vector<vector<int>> matrix;
-	~Generator() {
-		for (int i = 0; i < matrix.size(); i++) {
-			matrix[i].clear();
-		}
-		matrix.clear();
-	}
-	int create_matrix();
-	int has_zero_column(vector<int>* result);
-	void generate_w_h(int* n, int* m, int max_size);
-	int correct_zero_column(vector<int>* column);
-	int write_to_file();
+	int max_size = 100;
+	void clear();//done
+	int create_matrix(); //done
+	int has_zero_column(vector<int>* result); //done
+	void generate_w_h(int* n, int* m); //done
+	int correct_zero_column(vector<int>* column); //done
+	int write_to_file(int i);//done
 	int generate(int k);
 	void print() {
 		for (int i = 0; i < matrix.size(); i++) {
