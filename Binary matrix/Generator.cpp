@@ -5,8 +5,6 @@
 #include <string>
 
 
-
-
 void Generator::clear()
 {
 	for (int i = 0; i < matrix.size(); i++) {
@@ -17,12 +15,10 @@ void Generator::clear()
 
 int Generator::create_matrix()
 {
-	int m = 0, n = 0;
 	vector <int> tmp;
-	generate_w_h(&n, &m);
-	//cout << n << " | " << m << endl;
-	for (int j = 0; j < m; j++) {
-		for (int i = 0; i < n; i++) {
+	generate_w_h();
+	for (int j = 0; j < rows; j++) {
+		for (int i = 0; i < strings; i++) {
 			tmp.push_back(rand() % 2);
 		}
 		matrix.push_back(tmp);
@@ -45,9 +41,9 @@ int Generator::has_zero_column(vector<int>* result)
 	return f;
 }
 
-void Generator::generate_w_h(int* m, int* n) {
-	*n = (1 + rand() % max_size);
-	*m = (1 + rand() % max_size);
+void Generator::generate_w_h() {
+	strings = (1 + rand() % max_size);
+	rows = (1 + rand() % max_size);
 }
 
 int Generator::correct_zero_column(vector<int>* columns)
@@ -70,6 +66,7 @@ int Generator::write_to_file(int i)
 	out.open(filename);
 	if (out.is_open())
 	{
+		out << strings << " " << rows << endl;
 		for (int i = 0; i < matrix.size(); i++) {
 			for (int j = 0; j < matrix[i].size(); j++) {
 				out << matrix[i][j] << " ";

@@ -1,8 +1,11 @@
 ﻿  Generator.cpp
+  Solver.cpp
+D:\pract\pract_5\Binary matrix\Solver.cpp(7,12): warning C4101: m: неиспользованная локальная переменная
+D:\pract\pract_5\Binary matrix\Solver.cpp(7,9): warning C4101: n: неиспользованная локальная переменная
   main.cpp
-D:\pract\pract_5\Binary matrix\main.cpp(9,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\pract\pract_5\Binary matrix\main.cpp(10,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
   Создание кода
-  7 of 292 functions ( 2.4%) were compiled, the rest were copied from previous compilation.
+  4 of 325 functions ( 1.2%) were compiled, the rest were copied from previous compilation.
     1 functions were new in current compilation
     3 functions had inline decision re-evaluated but remain unchanged
   Создание кода завершено

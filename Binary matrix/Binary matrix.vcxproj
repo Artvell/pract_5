@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="Generator.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Solver.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Generator.h" />

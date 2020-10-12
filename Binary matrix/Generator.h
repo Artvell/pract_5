@@ -7,11 +7,12 @@ using namespace std;
 class Generator {
 public:
 	vector<vector<int>> matrix;
-	int max_size = 100;
+	int max_size = 10;
+	int strings, rows;
 	void clear();//done
 	int create_matrix(); //done
 	int has_zero_column(vector<int>* result); //done
-	void generate_w_h(int* n, int* m); //done
+	void generate_w_h(); //done
 	int correct_zero_column(vector<int>* column); //done
 	int write_to_file(int i);//done
 	int generate(int k);
